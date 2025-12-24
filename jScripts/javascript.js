@@ -5,7 +5,7 @@ const jobsData = [
     {
         title: "מלצר/ית",
         description: "קבלת הזמנה, זכירת פריטים והעברה למטבח.",
-        img: "../MidTask/Photos/Waiter.jpg",
+        img: "Photos/Waiter.jpg",  // שים לב לשינוי כאן
         dataJob: "מלצר",
         dataFunction: "זיכרון",
         tags: ["זיכרון פעולה", "סדר ביצוע"]
@@ -13,7 +13,7 @@ const jobsData = [
     {
         title: "סדרן/ית",
         description: "סידור מוצרים לפי קטגוריות ותאריכים.",
-        img: "../MidTask/Photos/Shelf organizer.jpg",
+        img: "Photos/Shelf organizer.jpg",
         dataJob: "סדרן",
         dataFunction: "ארגון",
         tags: ["ארגון", "קטגוריזציה"]
@@ -21,7 +21,7 @@ const jobsData = [
     {
         title: "פועל/ת מחסן",
         description: "איסוף פריטים לפי רשימת משלוח בסדר נכון.",
-        img: "../MidTask/Photos/Warehouse worker.jpg",
+        img: "Photos/Warehouse worker.jpg",
         dataJob: "פועל מחסן",
         dataFunction: "זיכרון",
         tags: ["זיכרון פעולה", "רצף"]
@@ -29,7 +29,7 @@ const jobsData = [
     {
         title: "עובד/ת בית קפה",
         description: "הכנת משקה לפי מרכיבים ספציפיים.",
-        img: "../MidTask/Photos/Coffee shop.jpg",
+        img: "Photos/Coffee shop.jpg",
         dataJob: "ברסטה",
         dataFunction: "זיכרון",
         tags: ["זיכרון פעולה", "דיוק"]
@@ -37,7 +37,7 @@ const jobsData = [
     {
         title: "עובד/ת ניקיון",
         description: "ביצוע משימות ניקיון לפי פרוטוקול מסודר.",
-        img: "../MidTask/Photos/Cleaning worker.jpg",
+        img: "Photos/Cleaning worker.jpg",
         dataJob: "ניקיון",
         dataFunction: "רצף",
         tags: ["רצף פעולות", "שיטתיות"]
@@ -45,7 +45,7 @@ const jobsData = [
     {
         title: "קופאי/ת",
         description: "סריקה וחיוב, המתנה למצב הנכון.",
-        img: "../MidTask/Photos/Cashier.jpg",
+        img: "Photos/Cashier.jpg",
         dataJob: "קופאי",
         dataFunction: "עיכוב",
         tags: ["עיכוב תגובה", "דיוק"]
@@ -53,7 +53,7 @@ const jobsData = [
     {
         title: "פועל/ת ייצור",
         description: "הרכבת חלקים לפי רצף: בסיס, חלק A, חלק B.",
-        img: "../MidTask/Photos/Factory worker.jpg",
+        img: "Photos/Factory worker.jpg",
         dataJob: "ייצור",
         dataFunction: "זיכרון",
         tags: ["זיכרון פעולה", "בקרת איכות"]
